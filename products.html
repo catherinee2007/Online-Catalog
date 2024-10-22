@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <table class="center">
+    
+
+  <thead >
+    <tr>
+      <th>Cakes</th>
+      <th>Product Name</th>
+      <th>Product Description</th>
+      <th>Product Price</th>
+    </tr>
+  </thead>
+  <tbody id="data-output">
+    
+  </tbody>
+    </table>
+    
+    <tfoot>
+        <p>Designed by: Catherine Casas </p>
+        <p>From: 12-Cooper</p>
+        <p>Adviser: Jovita De Vera</p>
+      </tfoot>
+      
+</body>
+ <script>
+   
+   fetch('products.json')
+     .then(res => {
+       if (!res.ok) {
+         console.log('Problem');
+         return;
+       }
+       return res.json();
+     })
+     .then((data) => { // Access the entire data object
+       let placeholder = document.querySelector("#data-output");
+       let output = "";
+       // Loop through the 'book' array
+       for (let cakes of data.cakes) { // Change 'books' to 'data.book'
+         output += `
+                   <tr>
+                       <td><img src="${cakes.ProductImage}" id="size"></td>
+                       <td>${cakes.ProductName}</td>
+                       <td>${cakes.ProductDescription}</td>
+                       <td>${cakes.ProductPrice}</td>
+                   </tr>
+                   `;
+       }
+       placeholder.innerHTML = output; // Ensure this is outside the loop
+     }) // End of then
+     .catch(error => {
+       console.log(error);
+     });
+   </script>
+   
+   
+ 
+</html>

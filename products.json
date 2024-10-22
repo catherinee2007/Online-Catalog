@@ -1,0 +1,61 @@
+{"cakes":[{
+    "ProductName": "Chocolate Cake",
+    "ProductDescription": "No words! Simply Chocolicious!",
+    "ProductImage": "cake1.jpeg",
+    "ProductPrice":"$350"
+  },
+  {
+    "ProductName": "Black Forest Cake",
+    "ProductDescription": "Dark Chocolate with whipped cream-sinfully indulging!",
+    "ProductImage": "cake2.jpeg",
+    "ProductPrice":"$600"
+  },
+  {
+    "ProductName": "Red Velvet Cake",
+    "ProductDescription": "Visually tempting,it is best savoured with cream frosting!",
+    "ProductImage": "cake3.jpeg",
+    "ProductPrice": "$450"
+  },
+  {
+    "ProductName": "Rocky Road Cake",
+    "ProductDescription": "The most decadent chocolate rocky road cake possible! Chocolate covered<br> marshmallows and nuts fill and top this decadent and moist chocolate cake.",
+    "ProductImage": "cake4.jpeg",
+    "ProductPrice": "$750"
+  },
+  {
+    "ProductName": "Banana Cake",
+    "ProductDescription": "Moist and sweet and is complimented perfectly by the ultra creamy cream cheese frosting.",
+    "ProductImage": "cake5.jpeg",
+    "ProductPrice": "$550"
+  },
+  { 
+    "ProductName": "Tiramisu Cake",
+    "ProductDescription": "Your all-time favorite Tiramisu Cake!",
+    "ProductImage": "cake6.jpeg",
+    "ProductPrice": "$650"
+  },
+  {
+    "ProductName": "Mocha Cake",
+    "ProductDescription": "This mocha cake is moist, fluffy and packed with chocolate and coffee flavor.",
+    "ProductImage": "cake7.jpeg",
+    "ProductPrice": "$400"
+  },
+  {
+    "ProductName": "Vanilla Cake",
+    "ProductDescription": "Simple but overflowing on sweetness!",
+    "ProductImage": "cake8.jpeg",
+    "ProductPrice": "$270"
+  },
+  {
+    "ProductName": "Butter Scotch Cake",
+    "ProductDescription": "The moist, sinfully buttery lure the taste of many.",
+    "ProductImage": "cake9.jpeg",
+    "ProductPrice": "$300"
+  },
+  {
+    "ProductName": "Strawberry Cake",
+    "ProductDescription": "Tempting Strawberry fresh cake, Simply delicious!",
+    "ProductImage": "cake10.jpeg",
+    "ProductPrice":"$470"
+  }
+    ]}
